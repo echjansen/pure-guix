@@ -70,3 +70,6 @@
                                ,(plain-file "echjansen.pub"
                                             "ssh-ed25519 AAAAC3... echjansen@t15"))))
             (operating-system-services profiled))))))
+
+;; Return the operating system
+%t15-system
