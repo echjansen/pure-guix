@@ -5,6 +5,7 @@
   #:use-module (gnu home)
   #:use-module (gnu home services)
   #:use-module (gnu packages emacs)
+  #:use-module (gnu packages ncurses)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages file)
   #:use-module (home common)
@@ -15,7 +16,8 @@
   (home-environment
    (packages
     (append
-     (list git
+     (list ncurses                      ; clear command
+           git
            emacs)
      common-home-packages))
 
