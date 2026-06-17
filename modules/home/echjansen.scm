@@ -16,10 +16,9 @@
    (packages
     (append
      (list git
-           emacs
-           emacs-magit
-           fd)
+           emacs)
      common-home-packages))
+
    ;; append allows user-specific services to extend common ones naturally
    (services
     (append
