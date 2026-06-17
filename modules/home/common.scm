@@ -2,6 +2,7 @@
 
 (define-module (home common)
   #:use-module (guix gexp)
+  #:use-module (gnu services)
   #:use-module (gnu home)
   #:use-module (gnu home services shells)
   #:export (common-home-packages
